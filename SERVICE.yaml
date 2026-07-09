@@ -17,15 +17,15 @@ positioning:
   keywords: ["무료 웹 도구", "온라인 계산기 모음", "웹 유틸리티 모음", "설치 없는 계산기"]
 
 lifecycle:
-  status: draft                   # draft → spec → building → qa → launched → maintained → sunset
+  status: launched                # draft → spec → building → qa → launched → maintained → sunset
   created: "2026-07-09"
-  launched: null
+  launched: "2026-07-09"
   last_maintained: null
   sunset: null
 
 deploy:
   host: github-pages              # github-pages | cloudflare-pages
-  repo: ""                        # github.com/<owner>/<slug>
+  repo: "https://github.com/rayvoidx/rayvoidx.github.io"
   url: "https://rayvoidx.github.io/"
   hub_listed: false               # 허브 사이트 등재 여부
 
@@ -36,6 +36,7 @@ monetization:
 quality:
   gate_passed: true
   gate_report: "factory/state/hub-gate.md"
+  baseline_commit: "ac47356"
   lighthouse: null                # 런칭 시 점수 기록
 
 lineage:
